@@ -1,0 +1,405 @@
+* {
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-size: ;
+	height: 100%;
+	background-color: #f4ddb2;
+}
+
+a,
+a:link,
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	margin-top: 25px;
+	text-align: center;
+	font-family: NYCD;
+	font-size: 34px;
+	color: #140c19;
+}
+
+h2 {
+	margin-top: 0px;
+	text-align: center;
+	font-family: NYCD;
+	font-size: 32px;
+	color: #140c19;
+}
+
+/** NAV BAR **/
+#nav .container {
+	padding-top: 10px;
+	width: 100%;
+	height: 60px;
+	background-color: #140c19;
+	position: relative;
+}
+
+.nav-left{
+	display: inline-block;
+	float: left;
+}
+
+.nav-left img {
+	height: 40px;
+}
+
+.nav-right {
+	padding-top: 7px;
+	display: inline-block;
+	float: right;
+}
+
+.nav-right li {
+	padding-right: 5px;
+	text-align: right;
+	font-size: 20px;
+	color: #bfbfbf;
+	float: left;
+}
+
+.nav-right a,
+.nav-right a:link {
+	text-transform: uppercase;
+	color: #bfbfbf;
+}
+
+.nav-right a:hover {
+	color: #fff;
+}
+
+/** BANNER **/
+
+#banner .container {
+	width: 100%;
+	height: 700px;
+	background-image: url("img/cover.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+	background-position: center;
+
+}
+
+#banner .container h1 {
+	font-family: Tangerine_Bold;
+	font-weight: bold;
+	font-size: 120px;
+	font-size: calc(100% + 10vw);
+	color: #fff;
+	text-align: center;
+	margin-top: 45px;
+	margin-right: 5%;
+}
+
+/** BUTTONS**/
+
+#banner .container .buttons {
+	display: table;
+	margin: 0 auto;
+	margin-top: 350px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#banner .container .buttons li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+#banner .container .buttons img {
+	width: 200px;
+}
+
+/** DESCRIPTION **/
+
+#description .container {
+	padding-top: 20px;
+	padding-right: 70px;
+	padding-bottom: 30px;
+	padding-left: 70px;
+	text-align: justify;
+}
+
+#description .container p {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+/** SOCIAL MEDIA **/
+
+#social .container {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#social .container ul {
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#social .container li {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#social .container a,
+#social .container a:link {
+	color: #130c18;
+}
+
+#social .container a:hover {
+	color: #da6538;
+}
+
+/** EMAIL **/
+
+#email .container {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#email .container p {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 26px;
+}
+
+#email .container a,
+#email .container a:link {
+	color: #da6538;
+}
+
+#email .container a:hover {
+	color: #130c18;
+}
+
+/** TEAM PAGE **/
+#team .container h2 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+#team .container .col-sm-4 {
+	padding: 7px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#team .container .col-sm-4 .profile {
+	width: 100px;
+	border-radius: 15px;
+	border: solid;
+	border-width: 3px;
+	border-color: #140c19;
+}
+
+#team .container h3 {
+	margin-top: 2px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+
+#team .container p {
+	font-family: NYCD;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #da6538;
+}
+
+#team .container ul {
+	padding: 0px;
+}
+
+#team .container li {
+	padding-left: 1px;
+	padding-right: 1px;
+	display: inline-block;
+}
+
+#team .container li img {
+	width: 16px;
+	opacity: 1;
+}
+
+#team .container li img:hover {
+	opacity: 0.5;
+}
+
+/** FOOTER **/
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 8px;
+	position: absolute;
+  	width: 100%;
+  	background-color: #140c19;
+	text-align: center;
+	overflow:hidden;
+}
+
+footer .container ul {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+footer .container li {
+	text-align: center;
+	display: inline-block;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+footer .container li img {
+	width: 16px;
+	opacity: 0.7;
+}
+
+footer .container li img:hover {
+	opacity: 1;
+}
+
+footer .container p {
+	color: #bfbfbf;
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+	height: 100px; /* '.push' must be the same height as 'footer' */
+}
+
+/** CUSTOM FONTS **/
+
+@font-face {
+    font-family: Tangerine_Bold;
+    src: url("fonts/Tangerine_Bold.ttf");
+}
+@font-face {
+    font-family: NYCD;
+    src: url("fonts/NothingYouCouldDoBold.ttf");
+}
+
+/** MOBILE CHANGES **/
+@media only screen and (min-width: 1824px) {
+	h2 {
+		font-size: 60px;
+	}
+
+	p,
+	a {
+		font-size: 32px !important;
+	}
+
+	#banner .container {
+		height: 1500px;
+	}
+
+	#banner .container .buttons {
+		margin-top: 700px;
+	}
+
+	#banner .container .buttons img {
+		width: 400px;
+	}
+
+	#nav .container {
+		padding-top: 20px;
+		height: 100px;
+	}
+
+	.nav-left img {
+		height: 60px;
+	}
+
+	footer {
+		height: 200px;
+	}
+
+	footer .container li img {
+		width: 24px;
+	}
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1823px) {
+	#banner .container {
+		height: 1000px;
+	}
+	#banner .container .buttons {
+		margin-top: 450px;
+	}
+	#banner .container .buttons img {
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	#banner .container h1 {
+		font-size: 110px;
+		margin-top: 7%;
+	}
+	#banner .container .buttons {
+		margin-top: 40%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	#banner .container h1 {
+		font-size: 100px;
+		margin-top: 10%;
+	}
+
+	#banner .container .buttons {
+		margin-top: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 568px) {
+	#banner .container h1 {
+		font-size: 73px;
+		margin-top: 20%;
+	}
+
+	#banner .container .buttons {
+		margin-top: 64%;
+	}
+
+	#banner .container .buttons ul {
+		margin-bottom: 0px;
+	}
+
+	#banner .container .buttons li {
+		padding-bottom: 5px;
+		float: none;
+	}
+
+	#description .container {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
