@@ -2,6 +2,6 @@
 Source code for the website for Lex The Wizard
 
 ## Engineers
-[Letícia Rossi dos Santos](http://leticiasantos.me/)
-Quinlan Schultz
-Isaiah Mann (Version Control)
+- [Letícia Rossi dos Santos](http://leticiasantos.me/)
+- Quinlan Schultz
+- [Isaiah Mann](http://isaiahmann.com) (Version Control)
